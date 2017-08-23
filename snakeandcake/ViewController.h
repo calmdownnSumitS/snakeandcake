@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)dicebuttonaction:(id)sender;
+@property (strong, nonatomic) IBOutlet UIButton *dicenumber;
+@property (strong, nonatomic) IBOutlet UILabel *dicevaluelbl;
+@property (strong, nonatomic) IBOutlet UIImageView *imageview;
+
 
 @end
 

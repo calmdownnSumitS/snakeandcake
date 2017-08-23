@@ -15,6 +15,9 @@
 		282BB1791F46DB590059B51C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 282BB1781F46DB590059B51C /* Assets.xcassets */; };
 		282BB17C1F46DB590059B51C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282BB17A1F46DB590059B51C /* LaunchScreen.storyboard */; };
 		282BB1871F46DB590059B51C /* snakeandcakeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 282BB1861F46DB590059B51C /* snakeandcakeTests.m */; };
+		282BB1921F46DB710059B51C /* thumb-1920-448009.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 282BB1911F46DB710059B51C /* thumb-1920-448009.jpg */; };
+		287103571F4AEC56004EB14C /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = 287103561F4AEC56004EB14C /* a.png */; };
+		2871035A1F4AFB0D004EB14C /* STARTGAMEVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 287103591F4AFB0D004EB14C /* STARTGAMEVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,10 @@
 		282BB1821F46DB590059B51C /* snakeandcakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snakeandcakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		282BB1861F46DB590059B51C /* snakeandcakeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = snakeandcakeTests.m; sourceTree = "<group>"; };
 		282BB1881F46DB590059B51C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		282BB1911F46DB710059B51C /* thumb-1920-448009.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumb-1920-448009.jpg"; sourceTree = "<group>"; };
+		287103561F4AEC56004EB14C /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a.png; sourceTree = "<group>"; };
+		287103581F4AFB0D004EB14C /* STARTGAMEVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STARTGAMEVC.h; sourceTree = "<group>"; };
+		287103591F4AFB0D004EB14C /* STARTGAMEVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STARTGAMEVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +72,8 @@
 		282BB15D1F46DB580059B51C = {
 			isa = PBXGroup;
 			children = (
+				287103581F4AFB0D004EB14C /* STARTGAMEVC.h */,
+				287103591F4AFB0D004EB14C /* STARTGAMEVC.m */,
 				282BB1681F46DB580059B51C /* snakeandcake */,
 				282BB1851F46DB590059B51C /* snakeandcakeTests */,
 				282BB1671F46DB580059B51C /* Products */,
@@ -100,6 +109,8 @@
 		282BB1691F46DB580059B51C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				287103561F4AEC56004EB14C /* a.png */,
+				282BB1911F46DB710059B51C /* thumb-1920-448009.jpg */,
 				282BB16A1F46DB580059B51C /* main.m */,
 			);
 			name = "Supporting Files";
@@ -201,6 +212,8 @@
 				282BB17C1F46DB590059B51C /* LaunchScreen.storyboard in Resources */,
 				282BB1791F46DB590059B51C /* Assets.xcassets in Resources */,
 				282BB1741F46DB580059B51C /* Main.storyboard in Resources */,
+				287103571F4AEC56004EB14C /* a.png in Resources */,
+				282BB1921F46DB710059B51C /* thumb-1920-448009.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				282BB1711F46DB580059B51C /* ViewController.m in Sources */,
+				2871035A1F4AFB0D004EB14C /* STARTGAMEVC.m in Sources */,
 				282BB16E1F46DB580059B51C /* AppDelegate.m in Sources */,
 				282BB1771F46DB590059B51C /* snakeandcake.xcdatamodeld in Sources */,
 				282BB16B1F46DB580059B51C /* main.m in Sources */,
@@ -357,6 +371,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5BA3NVSN22;
 				INFOPLIST_FILE = snakeandcake/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Sumit.snakeandcake;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -369,6 +384,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5BA3NVSN22;
 				INFOPLIST_FILE = snakeandcake/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Sumit.snakeandcake;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -420,6 +436,7 @@
 				282BB18D1F46DB590059B51C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		282BB18E1F46DB590059B51C /* Build configuration list for PBXNativeTarget "snakeandcakeTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +445,7 @@
 				282BB1901F46DB590059B51C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
